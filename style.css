@@ -1,0 +1,132 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: goldenrod;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 8%;
+}
+header nav .logo {
+  font-size: 32px;
+  font-weight: 800;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-right: 50px;
+}
+header nav ul li {
+  margin: 0 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+aside {
+  width: 25px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: black;
+  padding: 12px 6px;
+  position: fixed;
+  border-radius: 16px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: aliceblue;
+  overflow-x: hidden;
+  text-align: center;
+  transition: 0.3s;
+}
+aside:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.hero {
+  width: 100vw;
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  padding: 7% 12%;
+}
+.hero .text {
+  width: 50%;
+  margin: 140px auto 0;
+  text-align: center;
+}
+.hero .text h1 {
+  font-size: 56px;
+  font-weight: 900;
+  color: goldenrod;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.hero .text h4 {
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 12px;
+  color: goldenrod;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.hero .text button {
+  padding: 12px 18px;
+  color: black;
+  background-color: goldenrod;
+  border-radius: 12px;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about {
+  padding: 7% 12%;
+}
+.about h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.about .about-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about .about-container .text {
+  padding: 4% 6%;
+}
+.about .about-container .text h1 {
+  text-align: left !important;
+  font-size: 32px;
+  font-weight: 500;
+}
+.about .carousel-img {
+  width: 450px !important;
+  height: 300px;
+}
+
+.contact h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=style.css.map */
